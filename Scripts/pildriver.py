@@ -1,4 +1,4 @@
-#!e:\01_soft\python27\python.exe
+#!e:\01_SOFT\Python27\python.exe
 """PILdriver, an image-processing calculator using PIL.
 
 An instance of class PILDriver is essentially a software stack machine

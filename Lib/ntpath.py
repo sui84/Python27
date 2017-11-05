@@ -1,3 +1,4 @@
+﻿#encoding=utf-8
 # Module 'ntpath' -- common operations on WinNT/Win95 pathnames
 """Common pathname manipulations, WindowsNT/95 version.
 
@@ -7,6 +8,8 @@ module as os.path.
 
 import os
 import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 import stat
 import genericpath
 import warnings

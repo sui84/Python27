@@ -1,0 +1,4 @@
+#!E:\01_SOFT\Python27\python.exe
+# EASY-INSTALL-SCRIPT: 'pyftpdlib==1.5.0','ftpbench'
+__requires__ = 'pyftpdlib==1.5.0'
+__import__('pkg_resources').run_script('pyftpdlib==1.5.0', 'ftpbench')

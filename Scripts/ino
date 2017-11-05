@@ -1,0 +1,6 @@
+#!e:\01_SOFT\Python27\python.exe
+
+from ino.runner import main
+
+if __name__ == '__main__':
+    main()

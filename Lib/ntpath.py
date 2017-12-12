@@ -85,6 +85,8 @@ def join(path, *paths):
         # Second path is relative to the first
         if result_path and result_path[-1] not in '\\/':
             result_path = result_path + '\\'
+
+
         result_path = result_path + p_path
     ## add separator between UNC and non-absolute path
     if (result_path and result_path[0] not in '\\/' and
